@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/gkab/ferrum-client#readme",
   "dependencies": {
-    "jquery": "^3.2.1"
+    "jquery": "^3.2.1",
+    "promise": "^8.0.1",
+    "request": "^2.83.0"
   }
 }
