@@ -11,7 +11,7 @@ function apiRequest(method, route, data)
         request({
             method: method,
             uri: config.host + route,
-            body: data
+            form: data
         }, function(err, response) {
             if (err)
             {
