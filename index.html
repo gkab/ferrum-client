@@ -7,7 +7,34 @@
         <script src="js/ferrum.js"></script>
     </head>
     <body>
-        <h1>Тестовый интерфейс</h1>
-        
+        <div class="main-container">
+            <div class="tabs-list">
+                <div class="tab-button active" data-tab="students">Студенты</div>
+                <div class="tab-button" data-tab="tasks">Задачи</div>
+                <div class="tab-button" data-tab="jobs">Процессы</div>
+            </div>
+            <div class="tabs-content" data-tab-active="students">
+                <div class="tab-content active" data-tab="students">
+                    <table>
+                        <thead>
+                            <td>ФИО</td>
+                            <td>Логин</td>
+                            <td>Выполнено</td>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>A</td>
+                                <td>B</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <input type="button" value="Добавить студента" id="create-student">
+                </div>
+                <div class="tab-content" data-tab="tasks">
+                </div>
+                <div class="tab-content" data-tab="jobs">
+                </div>
+            </div>
+        </div>
     </body>
 </html>
